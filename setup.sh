@@ -4,11 +4,9 @@ echo リポジトリを日本のサーバに変更（sudo 利用時、パスワ�
 echo Do you wanna change Japanese server?(Y/n)
 read answer
 
-if [$answer = y] || [$answer = Y] || [$answer = yes] ||[$answer = YES];then
+# if [$answer = y] || [$answer = Y] || [$answer = yes] ||[$answer = YES];then
 sudo sed -i -e 's%http://.*.ubuntu.com%http://ftp.jaist.ac.jp/pub/Linux%g' /etc/apt/sources.list
-else
-echo 何もしない
-fi
+# fi
 
 echo パッケージのアップデート
 sudo apt update
