@@ -27,6 +27,9 @@ sudo apt purge -y nodejs npm   # 最初に入れた古いnode、npmは削除
 exec $SHELL -l                 # 再ログイン
 node -v                        # バージョン確認
 
+cd ..
+cd ..
+sudo chmod 777 root # rootに権限がないと言われるので，無理やり許可（あんまりよくないかも）
 echo NativeScript CLI のインストール
 sudo npm install -g nativescript
 
