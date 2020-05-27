@@ -7,6 +7,7 @@ read answer
 if [$answer = y] || [$answer = Y] || [$answer = yes] ||[$answer = YES];then
 sudo sed -i -e 's%http://.*.ubuntu.com%http://ftp.jaist.ac.jp/pub/Linux%g' /etc/apt/sources.list
 else
+echo 何もしない
 fi
 
 echo パッケージのアップデート
