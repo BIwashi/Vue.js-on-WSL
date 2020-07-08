@@ -5,4 +5,4 @@ Install Android SDK and Vue.js on Windows Bash (WSL)
 
 [Android SDK](https://developer.android.com/studio)
 
-参考:[【Vue.js】WSL 上で Vue.js を用いた Android アプリを開発する) ](https://qiita.com/Saya_K/items/90277a9bc8f09cafe676)
+参考:[【Vue.js】WSL 上で Vue.js を用いた Android アプリを開発する ](https://qiita.com/Saya_K/items/90277a9bc8f09cafe676)
